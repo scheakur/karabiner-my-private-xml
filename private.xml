@@ -1,8 +1,14 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>My key mappings</name>
-    <identifier>com.scheakur.keymap</identifier>
+    <name>Mac Keyboards</name>
+    <identifier>com.scheakur.keymap.mac</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
+    <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_R, KeyCode::COMMAND_R, KeyCode::JIS_KANA</autogen>
+  </item>
+  <item>
+    <name>PC Keyboards</name>
+    <identifier>com.scheakur.keymap.pc</identifier>
     <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
     <autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_R, KeyCode::OPTION_R</autogen>
     <autogen>__KeyOverlaidModifier__ KeyCode::OPTION_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
